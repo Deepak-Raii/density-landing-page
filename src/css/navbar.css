@@ -1,0 +1,38 @@
+.navbarDiv {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  height: 96px;
+ background-color:#08130a;
+}
+
+.brandlogo {
+  width: 99.95px;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  gap: 56px;
+}
+
+.navbar ul li {
+  list-style: none;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.navbar ul button {
+  background: linear-gradient(85.85deg, #d4f938 23.09%, #32d875 108.69%);
+  width: 161px;
+  height: 48px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+}
